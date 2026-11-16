@@ -13,7 +13,7 @@ public class FirstTest {
         driver.get("https://www.saucedemo.com");
         String title= driver.getTitle();
         System.out.println("Title:"+ title);
-        Assert.assertEquals(title, "Swag labs");
+        Assert.assertEquals(title, "Swag Labs");
         driver.quit();
     }
 
